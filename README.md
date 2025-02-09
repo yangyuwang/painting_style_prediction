@@ -26,4 +26,6 @@ Further, we extracted the features of paintings by CLIP. The preprocessed datase
 
 ## Presentation
 
+Presentation slides please see [here](https://docs.google.com/presentation/d/1oEPAdh36vebcjFWUfRHLDfuK-9V7VXFEMl48Qibhj90/edit?usp=sharing).
+
 
