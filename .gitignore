@@ -1,2 +1,6 @@
 data/*
 data
+
+error_analysis.ipynb
+
+.DS_Store
