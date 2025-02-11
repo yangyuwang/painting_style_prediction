@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Feature 153 <= 0.004\nentropy = 3.999\nsamples = 8094\nvalue = [812.0, 807.0, 847.0, 800.0, 819.0, 815.0, 775.0, 807.0\n764.0, 802.0, 776.0, 801.0, 802.0, 817.0, 759.0, 797.0]", fillcolor="#ffffff"] ;
+1 [label="Feature 110 <= -0.026\nentropy = 3.909\nsamples = 4140\nvalue = [528.0, 345.0, 341.0, 635.0, 161.0, 428.0, 264.0, 247.0\n526.0, 520.0, 537.0, 388.0, 517.0, 160.0, 450.0, 470.0]", fillcolor="#fdfffc"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Feature 212 <= -0.018\nentropy = 3.614\nsamples = 768\nvalue = [19.0, 235.0, 61.0, 23.0, 6.0, 28.0, 50.0, 117.0, 24.0\n87.0, 136.0, 108.0, 56.0, 120.0, 83.0, 51.0]", fillcolor="#fdf9ed"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+118 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 118 ;
+313 [label="Feature 428 <= 0.108\nentropy = 3.806\nsamples = 3372\nvalue = [509.0, 110.0, 280.0, 612.0, 155.0, 400.0, 214.0, 130.0\n502.0, 433.0, 401.0, 280.0, 461.0, 40.0, 367.0, 419.0]", fillcolor="#fcfefb"] ;
+1 -> 313 ;
+314 [label="(...)", fillcolor="#C0C0C0"] ;
+313 -> 314 ;
+527 [label="(...)", fillcolor="#C0C0C0"] ;
+313 -> 527 ;
+778 [label="Feature 357 <= -0.106\nentropy = 3.899\nsamples = 3954\nvalue = [284.0, 462.0, 506.0, 165.0, 658.0, 387.0, 511.0, 560.0\n238.0, 282.0, 239.0, 413.0, 285.0, 657.0, 309.0, 327.0]", fillcolor="#ffffff"] ;
+0 -> 778 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+779 [label="Feature 184 <= 0.015\nentropy = 3.24\nsamples = 1643\nvalue = [5.0, 401.0, 266.0, 3.0, 127.0, 82.0, 153.0, 362.0, 8.0\n43.0, 47.0, 131.0, 12.0, 649.0, 193.0, 99.0]", fillcolor="#fce8f6"] ;
+778 -> 779 ;
+780 [label="(...)", fillcolor="#C0C0C0"] ;
+779 -> 780 ;
+1029 [label="(...)", fillcolor="#C0C0C0"] ;
+779 -> 1029 ;
+1180 [label="Feature 329 <= -0.022\nentropy = 3.792\nsamples = 2311\nvalue = [279.0, 61.0, 240.0, 162.0, 531.0, 305.0, 358.0, 198.0\n230.0, 239.0, 192.0, 282.0, 273.0, 8.0, 116.0, 228.0]", fillcolor="#f5fef5"] ;
+778 -> 1180 ;
+1181 [label="(...)", fillcolor="#C0C0C0"] ;
+1180 -> 1181 ;
+1390 [label="(...)", fillcolor="#C0C0C0"] ;
+1180 -> 1390 ;
+}

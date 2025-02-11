@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Feature 282 <= 0.018\nentropy = 3.999\nsamples = 8149\nvalue = [830.0, 759.0, 765.0, 776.0, 820.0, 813.0, 786.0, 776.0\n813.0, 793.0, 759.0, 826.0, 793.0, 840.0, 836.0, 815.0]", fillcolor="#ffffff"] ;
+1 [label="Feature 74 <= -0.017\nentropy = 3.772\nsamples = 2576\nvalue = [411, 82, 194, 575, 179, 313, 188, 22, 312, 298\n308, 202, 466, 130, 175, 181]", fillcolor="#fbfef9"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Feature 390 <= -0.001\nentropy = 3.741\nsamples = 685\nvalue = [17, 66, 76, 88, 23, 106, 38, 11, 13, 91, 144, 94\n74, 105, 91, 46]", fillcolor="#f8f7fe"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+192 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 192 ;
+355 [label="Feature 178 <= 0.052\nentropy = 3.588\nsamples = 1891\nvalue = [394, 16, 118, 487, 156, 207, 150, 11, 299, 207\n164, 108, 392, 25, 84, 135]", fillcolor="#fbfef8"] ;
+1 -> 355 ;
+356 [label="(...)", fillcolor="#C0C0C0"] ;
+355 -> 356 ;
+569 [label="(...)", fillcolor="#C0C0C0"] ;
+355 -> 569 ;
+766 [label="Feature 481 <= -0.029\nentropy = 3.945\nsamples = 5573\nvalue = [419.0, 677.0, 571.0, 201.0, 641.0, 500.0, 598.0, 754.0\n501.0, 495.0, 451.0, 624.0, 327.0, 710.0, 661.0, 634.0]", fillcolor="#feffff"] ;
+0 -> 766 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+767 [label="Feature 320 <= 0.019\nentropy = 3.76\nsamples = 2920\nvalue = [42, 462, 354, 45, 249, 205, 298, 546, 62, 273, 279\n354, 152, 502, 446, 313]", fillcolor="#fdffff"] ;
+766 -> 767 ;
+768 [label="(...)", fillcolor="#C0C0C0"] ;
+767 -> 768 ;
+1021 [label="(...)", fillcolor="#C0C0C0"] ;
+767 -> 1021 ;
+1224 [label="Feature 427 <= -0.0\nentropy = 3.932\nsamples = 2653\nvalue = [377, 215, 217, 156, 392, 295, 300, 208, 439, 222\n172, 270, 175, 208, 215, 321]", fillcolor="#fdfeff"] ;
+766 -> 1224 ;
+1225 [label="(...)", fillcolor="#C0C0C0"] ;
+1224 -> 1225 ;
+1458 [label="(...)", fillcolor="#C0C0C0"] ;
+1224 -> 1458 ;
+}
