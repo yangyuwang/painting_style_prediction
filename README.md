@@ -12,7 +12,7 @@ Further, we extracted the features of paintings by CLIP. The preprocessed datase
 
 ## Codes
 
-1. Main Modeling: see [P2_Yangyu_Avi_Gio.ipynb](P2_Yangyu_Avi_Gio.ipynb)
+1. Main Modeling: see [P2_Yangyu_Avi_Gio.ipynb](https://github.com/yangyuwang/painting_style_prediction/blob/main/P2_Yangyu_Avi_Gio_Colab_Notebook.ipynb)
 
 2. Trend Analysis: see [trend_analysis.ipynb](trend_analysis.ipynb)
 
